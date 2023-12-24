@@ -4,6 +4,7 @@ IT'S DEXEMBER LADS AND LASSES! Thank you all for your incredible support. We hit
 - THIS UPDATE WAS BROUGHT TO YOU BY STARLIGHTDX, THE KOLD K1 AND MENTOR DEX
 
 - Added support for UP: Complete Addon's new update
+- You can now toggle between grey soles and red soles!
 - Restored SU frontal boost colour.
 - Added Redux SFX to the Japanese sound archive.
 - Reverted 2D slope physics back to Unleashed's. No more slope issues.
