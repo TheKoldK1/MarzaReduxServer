@@ -1,5 +1,5 @@
 ## SU Redux Marza Sonic V5.3
-IT'S DEXEMBER LADS! Thank you all for your incredible support. We hit 1,893 downloads for the last build 4 months back. That's insane! We're bringing a new update that polishes, adds and optimises the mod. Please take a look at the changes:
+IT'S DEXEMBER LADS AND LASSES! Thank you all for your incredible support. We hit 1,893 downloads for the last build 4 months back. That's insane! We're bringing a new update that polishes, adds and optimises the mod. Please take a look at the changes:
 
 - THIS UPDATE WAS BROUGHT TO YOU BY STARLIGHTDX, THE KOLD K1 AND MENTOR DEX
 
