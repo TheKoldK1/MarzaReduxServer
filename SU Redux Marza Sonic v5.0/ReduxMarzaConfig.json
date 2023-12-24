@@ -1,0 +1,186 @@
+{
+   "Groups": [
+      {
+         "Name": "Main",
+         "DisplayName": "Configuration",
+        "Elements": [
+          {
+            "Name": "IncludeDir2",
+            "DisplayName": "Voice Language",
+            "Description": [
+              "Determine the language and voice of Sonic."
+            ],
+            "Type": "VoiceEnum",
+            "MinValue": null,
+            "MaxValue": null,
+            "DefaultValue": "core_main"
+          },
+
+
+          {
+            "Name": "IncludeDir1",
+            "DisplayName": "Accessories",
+            "Description": [
+              "Allows you to enable/disable Chip's Bracelet."
+            ],
+            "Type": "ChipEnum",
+            "MinValue": null,
+            "MaxValue": null,
+            "DefaultValue": "core_main"
+          },
+
+          {
+            "Name": "IncludeDir0",
+            "DisplayName": "Shoe Sole Colour",
+            "Description": [
+              "Allows you to switch between Red and Grey Shoe Soles."
+            ],
+            "Type": "SoleEnum",
+            "MinValue": null,
+            "MaxValue": null,
+            "DefaultValue": "core_red_soles"
+          },
+
+
+          {
+            "Name": "IncludeDir3",
+            "DisplayName": "Tweaked Unleashed Physics",
+            "Description": [
+              "Enable/disable tweaked Unleashed physics. If disabled, the game will revert to either vanilla physics or the physics of another mod.",
+              "Tweaked SU physics offers a balance of the best of SA and Unleashed physics. Built for platforming, speeding and fun. This also makes slope physics more apparent. Try these physics before settling on your preference!"
+            ],
+            "Type": "PhysicsEnum",
+            "MinValue": null,
+            "MaxValue": null,
+            "DefaultValue": "core_dummy"
+          },
+
+
+          {
+            "Name": "IncludeDir4",
+            "DisplayName": "Redux Camera Style",
+            "Description": [
+              "Redux Camera Style adds more to the sense of speed and provides a satisfyingly smooth camera. Similar to the Unleashed camera, but different. Use this if you're playing with the tweaked physics!",
+              "NOTE: Enabling the Unleashed Style Camera code in HMM WILL override the Redux camera. Disable the code if you wish to use the Redux camera!"
+            ],
+            "Type": "CameraEnum",
+            "MinValue": null,
+            "MaxValue": null,
+            "DefaultValue": "core_redux_camera"
+          }
+        ]
+      }
+   ],
+  "Enums": {
+    "VoiceEnum": [
+      {
+        "DisplayName": "English",
+        "Value": "core_main",
+        "Description": [
+          "Uses the English Voice (Jason Griffith) for Sonic."
+        ]
+      },
+      {
+        "DisplayName": "Japanese",
+        "Value": "core_jpn",
+        "Description": [
+          "Uses the Japanese Voice (Jun'ichi Kanemaru) for Sonic."
+        ]
+      }
+
+    ],
+
+    "ChipEnum": [
+      {
+        "DisplayName": "Chip's Bracelet",
+        "Value": "core_marza_chip",
+        "Description": [
+          "More than a friendship bracelet..."
+        ]
+      },
+
+      {
+        "DisplayName": "No Bracelet",
+        "Value": "core_main",
+        "Description": [
+          "It's... Sonic! Just, Sonic."
+        ]
+      }
+
+    ],
+
+    "SoleEnum": [
+      {
+        "DisplayName": "Red Shoe Soles",
+        "Value": "core_red_soles",
+        "Description": [
+          "A personal taste of Dex's. Red soles just hit differently."
+        ]
+      },
+
+      {
+        "DisplayName": "Grey Shoe Soles",
+        "Value": "core_main",
+        "Description": [
+          "A timeless colour pallete for the grey sole enjoyers!"
+        ]
+      }
+
+    ],
+
+    "PhysicsEnum": [
+      {
+        "DisplayName": "Enable",
+        "Value": "core_physics",
+        "Description": [
+          "Enable Tweaked Unleashed Physics. A balance of the best of SA and Unleashed physics. Built for platforming, speeding and fun!",
+          "Features:",
+          "- Faster air physics",
+          "- Tweaked slope physics",
+          "- Faster and smoother character rotation (ground and air)",
+          "- Increased speeds",
+          "- Air boost has more of an impact",
+          "- Based off Unleashed's physics",
+          "- Many more changes made to carefully craft the ultimate Sonic experience"
+        ]
+      },
+
+      {
+        "DisplayName": "Disable",
+        "Value": "core_dummy",
+        "Description": [
+          "Disable Tweaked Unleashed Physics. Game reverts back to vanilla Gens physics or another physics file if a mod enabled includes new physics."
+        ]
+      }
+
+    ],
+
+    "CameraEnum": [
+      {
+        "DisplayName": "Enable",
+        "Value": "core_redux_camera",
+        "Description": [
+          "Enable Redux Camera Style. This adds more to the sense of speed. Similar to the Unleashed camera but different. Use this if you're playing with the tweaked physics!",
+          "Features:",
+          "- New camera offset values",
+          " - Smoother camera movement",
+          "- Super satisfying to play with",
+          "- Unleashed FOV when boosting with new distance offsets",
+          "- Lazily follows Sonic when quickstepping, like Unleashed",
+          "- Improved 2D camera for better visibility",
+          "- Many more changes to improve the existing camera"
+        ]
+      },
+
+      {
+        "DisplayName": "Disable",
+        "Value": "core_dummy",
+        "Description": [
+          "Disable Redux Camera Style. Game reverts back to the vanilla camera or a different camera if a mod has camera files included."
+        ]
+      }
+
+    ]
+  },
+   "IniFile": "mod.ini"
+}
