@@ -116,3 +116,4 @@ add core_red_soles/disk/bb3/+Sonic.ar.00
 add core_red_soles/disk/bb3/+Sonic.arl
 add ReduxMarza.dll
 add ReduxMarzaConfig.json
+add mod.ini
