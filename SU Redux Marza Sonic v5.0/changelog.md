@@ -9,6 +9,7 @@ IT'S DEXEMBER LADS AND LASSES! Thank you all for your incredible support. We hit
 - Reverted 2D slope physics back to Unleashed's. No more slope issues.
 - Lowered the concrete footsteps, braking and landing sounds.
 - Lowered the boost's sound barrier sound a little.
+- Reverted the boost jet whine to the vanilla sound. No more odd turbo whine.
 - This mod now makes use of the new AR file loading method -> +NameOfARfile.ar/arl. This means the mod isn't as big as it used to be which is absolutely fantastic!
 - Cleaned up the folder layout & files to avoid duplicate files. Redux Sonic would've been over 1 GB if it wasn't for this!
 
